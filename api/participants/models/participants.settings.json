@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "participants",
+  "info": {
+    "name": "Participants"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "full_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "address": {
+      "type": "text"
+    },
+    "claimed": {
+      "type": "boolean",
+      "default": false
+    },
+    "pin_code": {
+      "type": "string"
+    }
+  }
+}
