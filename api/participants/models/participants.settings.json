@@ -25,7 +25,7 @@
     "pin_code": {
       "type": "string"
     },
-    "assigned_to": {
+    "picked_by": {
       "type": "integer"
     }
   }
