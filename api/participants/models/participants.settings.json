@@ -24,6 +24,9 @@
     },
     "pin_code": {
       "type": "string"
+    },
+    "assigned_to": {
+      "type": "integer"
     }
   }
 }
